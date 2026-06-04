@@ -49,15 +49,17 @@ setLoading(false);
 return ( <div className="min-h-screen bg-slate-50"> <div className="max-w-4xl mx-auto px-4 py-10">
 
     {/* Header */}
-    <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-blue-900 rounded-3xl p-8 text-white mb-8 shadow-lg">
-      <h1 className="text-4xl font-bold">
-        Create Notice
-      </h1>
+    <div className="bg-gradient-to-red from-slate-900 via-slate-800 to-blue-900 rounded-3xl p-8 text-white mb-8 shadow-lg">
+      <div className="bg-gradient-to-r from-slate-900 via-blue-900 to-indigo-900 rounded-3xl p-10 text-white mb-8 shadow-xl">
+        <h1 className="text-5xl font-extrabold tracking-tight">
+          Create Notice
+        </h1>
 
-      <p className="mt-3 text-slate-200 text-lg">
-        Publish examinations, events and important
-        announcements for students and faculty.
-      </p>
+        <p className="mt-4 text-slate-100 text-lg max-w-2xl">
+          Publish examinations, events and important announcements
+          for students and faculty.
+        </p>
+      </div>
     </div>
 
     {/* Form */}
